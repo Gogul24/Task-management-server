@@ -1,4 +1,4 @@
-const {Task , User} = require('../server/Schema');
+const {Task , User} = require('./Schema');
 const bcrypt = require('bcrypt');
 
 exports.createTask = async (req, res) => {
