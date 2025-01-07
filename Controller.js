@@ -1,5 +1,5 @@
 const {Task , User} = require('./Schema');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 exports.createTask = async (req, res) => {
   try {
